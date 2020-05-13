@@ -99,6 +99,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   .content-wrapper {
+     width: 90%;
+     margin: 50px 0;
+   }
+
 
    /* Start of Header/Footer Base Styles */
 
@@ -110,11 +115,22 @@ textarea {
 
    }
 
+   header {
+     padding: 15px 0px;
+   }
+
    header .content-wrapper {
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     margin: 0px;
+   }
+
+   .header-divider {
+     width: 100%;
+     height: 1px;
+     margin: 10px 0 20px 0;
    }
 
 
@@ -123,15 +139,30 @@ textarea {
      justify-content: space-around;
      align-items: center;
      flex-flow: row wrap;
-
-
+     width: 60%;
    }
 
    header nav ul {
      display: flex;
      justify-content: space-around;
+     width: 100%;
+   }
 
+   footer {
+     flex-direction: column;
+   }
 
+   footer p {
+     margin: 0px;
+   }
+
+   footer .content-wrapper {
+     width: 55%;
+     margin: 50px 0px;
+   }
+
+   footer .contact {
+     margin-bottom: 50px;
    }
 
    footer .social-icons {
@@ -147,9 +178,19 @@ textarea {
      align-items: center;
    }
 
+   footer .copyright {
+     margin: 20px 0;
+   }
+
+
+
+
    /* End of Header/Footer Base styles */
 
    /* Start of Main Mobile styles-Homepage */
+
+
+
 
 
    /* hero area */
@@ -158,6 +199,10 @@ textarea {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+   }
+
+   .hero-area h1 {
+     padding: 60px 35px 0px 15px;
    }
 
    /* aside area */
@@ -169,6 +214,23 @@ textarea {
      flex-flow: row wrap;
    }
 
+   .form-description h3 {
+     padding: 30px 0px 15px 15px;
+   }
+
+   .form-description p {
+     padding: 30px 35px 15px 15px;
+   }
+
+   .form h3 {
+     padding: 40px 35px 20px 15px;
+   }
+
+   .form input {
+     padding: 20px 20px 55px 20px;
+     text-align: center;
+   }
+
    /* features area */
 
    .features {
@@ -177,6 +239,19 @@ textarea {
      flex-flow: row wrap;
    }
 
+   .features article {
+     width: 63%;
+     margin: 30px 0;
+   }
+
+   .features h2 {
+     padding: 50px 0px 65px 15px;
+   }
+
+   .features p {
+     margin:0px;
+     padding: 50px 0px;
+   }
 
    .features .features-items {
      display: flex;
@@ -191,6 +266,37 @@ textarea {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+   }
+
+   .reviews h2 {
+     margin-bottom: 40px;
+   }
+
+   .reviews h3 {
+     width: 55%;
+     margin: 20px 0;
+   }
+
+   .reviews p {
+     padding: 25px 15px;
+   }
+
+   .contact h4{
+     padding: 50px 0px 20px 0px;
+     text-align: center;
+   }
+
+   .contact p {
+     text-align: center;
+   }
+
+   .social h4{
+     padding: 50px 0px 20px 0px;
+     text-align: center;
+   }
+
+   .social p {
+     text-align: center;
    }
 
 
