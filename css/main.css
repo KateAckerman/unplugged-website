@@ -155,7 +155,7 @@ textarea {
 
    p {
     font-size: .875em;
-    
+
     text-align: center;
    }
 
@@ -373,6 +373,7 @@ aside p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .contact-section {
@@ -380,6 +381,7 @@ aside p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -395,6 +397,7 @@ aside p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
