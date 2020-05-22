@@ -227,10 +227,11 @@ header .content-wrapper {
 }
 
 .header-divider {
-  width: 100%;
+  background: #3a3a3a;
   height: 1px;
+  width: 100%;
   margin: 10px 0 20px 0;
-  color: #3a3a3a;
+
 }
 
 header nav {
@@ -376,12 +377,20 @@ aside p {
   background-color: #527158;
 }
 
+.mission p {
+  text-align: left;
+}
+
 .contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   background-color: #2a423a;
+}
+
+.contact-section p {
+  text-align: left;
 }
 
 .contact-content p {
@@ -410,6 +419,10 @@ aside p {
 
 .faq h2 {
   margin-bottom: 40px;
+}
+
+.faq p {
+  text-align: left;
 }
 
 .faq-content {
