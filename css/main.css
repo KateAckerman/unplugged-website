@@ -121,6 +121,7 @@ textarea {
    ol {
      list-style-type: none;
      padding-left: 0px;
+     margin: 0;
    }
 
    a {
@@ -134,6 +135,7 @@ textarea {
       font-weight: lighter;
       line-height: 1.2;
       letter-spacing: .25px;
+      margin:0;
     }
 
    h2 {
@@ -203,6 +205,14 @@ input[type=button] {
   text-transform: uppercase;
 }
 
+img {
+	width: 100%;
+}
+
+figure {
+        margin: 0;
+}
+
 /* -------------------- Base Header - Footer Styles -------------------- */
 
 header,
@@ -216,6 +226,18 @@ footer {
 
 header {
   padding: 15px 0;
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header a {
+  font-size: smaller;
 }
 
 header .content-wrapper {
@@ -248,7 +270,7 @@ header nav {
 
 header nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   font-size: 1.125em;
 }
@@ -258,11 +280,9 @@ footer {
   text-align: center;
 }
 
-footer p {
+footer p, h4 {
   margin: 0;
-
 }
-
 
 footer .content-wrapper {
   width: 55%;
@@ -298,6 +318,9 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/jake-melara-30679-unsplash-72.jpg') center no-repeat #333;
+  background-size: 350%;
+  height: 500px;
 }
 
 /* Aside */
@@ -308,6 +331,7 @@ aside {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+  height: 370px;
 }
 
 aside p {
@@ -320,10 +344,13 @@ aside p {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/rawpixel-800820-unsplash1-72.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
   margin-bottom: 60px;
+  margin-top: 0;
 }
 
 .features article {
@@ -353,6 +380,7 @@ aside p {
 
 .reviews h2 {
   margin-bottom: 40px;
+  margin-top: 0;
   line-height: 1;
 }
 
@@ -534,6 +562,15 @@ aside p {
         padding: 33px 0;
       }
 
+
+      header figure {
+          width: 35%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: row wrap;
+      }
+
       header .content-wrapper {
           width: 100%;
           justify-content: space-between;
@@ -545,6 +582,7 @@ aside p {
 
       header nav ul {
         justify-content: space-between;
+        font-size: smaller;
       }
 
       header nav ul a {
@@ -557,6 +595,11 @@ aside p {
       }
 
       /* Hero Area */
+
+      .hero-area {
+        height:600px;
+        background-size: 160%;
+      }
 
       /* Aside */
       aside .content-wrapper {
@@ -573,6 +616,10 @@ aside p {
       }
 
       /* Features */
+
+      .features {
+        background-size: 170%;
+      }
 
       .features article {
         display: flex;
@@ -595,8 +642,32 @@ aside p {
       }
 
       .reviews article div {
-          width: 49%;
+          width: 100%;
       }
+
+      .reviews figure {
+        width: 50%;
+        float: left;
+        padding-right: 20px;
+        padding-top: 10px;
+
+      }
+
+      .reviews h2 {
+        font-size: 2.25em;
+      }
+
+      .reviews h3 {
+        font-size: 1.875em;
+        width:100%;
+        margin-top: 0;
+      }
+
+      .reviews p {
+        width:100%;
+      }
+
+
 
       /* Footer */
       footer .content-wrapper {
@@ -617,6 +688,11 @@ aside p {
 
       footer .copyright {
           width:100%
+      }
+
+      footer h4 {
+        padding-bottom: 40px;
+
       }
 
       /* ==========================================================================
@@ -669,9 +745,15 @@ aside p {
   /*Desktop styles here */
       .content-wrapper {
            max-width: 960px;
+           margin: 100px 150px;
       }
 
        /* Hero */
+
+       .hero-area {
+         height:600px;
+         background-size: 100%;
+       }
       .hero-area h1 {
           width: 70%;
       }
@@ -697,8 +779,18 @@ aside p {
 
       /* Reviews */
       .reviews article div {
-          width:44%;
+          width:100%;
       }
+
+      .reviews h2 {
+        padding-bottom:50px;
+      }
+
+      .reviews p {
+        font-size: 1.15em
+      }
+
+
 
 /* ==========================================================================
    About Page
