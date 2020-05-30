@@ -648,6 +648,11 @@ aside p {
 
       }
 
+      .features i {
+        font-size: 3.75em;
+        margin-bottom: 40px;
+      }
+
       .features .features-item-description {
           width:50%;
       }
