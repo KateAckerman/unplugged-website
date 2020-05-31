@@ -280,9 +280,14 @@ footer {
   text-align: center;
 }
 
-footer p, h4 {
+footer p, {
   margin: 0;
 }
+
+footer h4 {
+  margin-bottom: : 20px;
+}
+
 
 footer .content-wrapper {
   width: 55%;
@@ -297,17 +302,25 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: -20px;
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top:20px;
 }
 
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
 footer .copyright {
-  margin: 20px 0;
-
+  margin: -20px 0 20px 0;
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -347,6 +360,16 @@ aside p {
   flex-flow: row wrap;
   background: url('../img/rawpixel-800820-unsplash1-72.jpg') center no-repeat #333;
   background-size: cover;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
+.features p {
+  text-align: center;
+  margin: 0;
 }
 
 .features h2 {
@@ -645,13 +668,8 @@ aside p {
         justify-content: center;
         flex-flow: column wrap;
         flex-basis: 50%;
-
       }
 
-      .features i {
-        font-size: 3.75em;
-        margin-bottom: 40px;
-      }
 
       .features .features-item-description {
           width:50%;
