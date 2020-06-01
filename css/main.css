@@ -131,10 +131,9 @@ textarea {
 
   h1 {
       font-size: 2.25em;
-      font-family: 'Poppins', Helvetica, Arial, sans-serif;
-      font-weight: lighter;
+      font-family: 'Poppins', sans-serif;
       line-height: 1.2;
-      letter-spacing: .25px;
+      letter-spacing: 1.5px;
       margin:0;
     }
 
@@ -176,7 +175,7 @@ textarea {
 
 .content-wrapper {
   width: 90%;
-  margin: 50px 0;
+  margin: 40px 0;
 }
 
 aside .form {
@@ -236,10 +235,6 @@ header figure {
     flex-flow: row wrap;
 }
 
-header a {
-  font-size: smaller;
-}
-
 header .content-wrapper {
   margin: 0;
   display: flex;
@@ -252,7 +247,7 @@ header .content-wrapper {
   background: #3a3a3a;
   height: 1px;
   width: 100%;
-  margin: 10px 0 20px 0;
+  margin: 10px 0;
 
 }
 
@@ -271,7 +266,7 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 80%;
   font-size: 1.125em;
 }
 
@@ -291,7 +286,7 @@ footer h4 {
 
 footer .content-wrapper {
   width: 55%;
-  margin: 50px 0;
+  margin: 30px 0;
 }
 
 footer .contact {
@@ -339,13 +334,17 @@ footer .copyright {
 
 /* Aside */
 
+.form-description {
+  margin-top: -20px;
+}
+
 aside {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
-  min-height: 370px;
+  min-height: 330px;
 }
 
 aside p {
@@ -360,16 +359,18 @@ aside p {
   flex-flow: row wrap;
   background: url('../img/rawpixel-800820-unsplash1-72.jpg') center no-repeat #333;
   background-size: cover;
+  margin: -10px 0px;
 }
 
-.features i {
-  font-size: 3.75em;
+.features p i {
+  font-size: 4.25em;
   margin-bottom: 40px;
 }
 
 .features p {
   text-align: center;
   margin: 0;
+
 }
 
 .features h2 {
@@ -642,24 +643,41 @@ aside p {
         background-size: 160%;
       }
 
+      .hero-area h1 {
+        font-size:3em;
+      }
+
       /* Aside */
+
+
+
+      aside {
+        min-height: 235px;
+      }
+
+      aside .content-wrapper .form-description,
+      aside .content-wrapper .form {
+          width: 45%;
+          margin: 0;
+      }
+
+
       aside .content-wrapper {
-          margin: 50px 0;
+          margin: 40px 0;
           display: flex;
           justify-content: space-between;
           flex-flow: row wrap;
       }
 
-      aside .content-wrapper .form-description,
-      aside .content-wrapper .form {
-          width: 40%;
-          margin: 0;
+
+      aside h3 {
+        font-size: 1.5em;
       }
 
       /* Features */
 
       .features {
-        background-size: 170%;
+        margin: 0;
       }
 
       .features article {
