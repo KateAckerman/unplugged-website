@@ -142,6 +142,7 @@ textarea {
      font-size: 1.875em;
      font-weight: 400;
      letter-spacing: 1px;
+     margin: 0;
 
 
    }
@@ -267,7 +268,8 @@ header nav ul {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  font-size: 1.125em;
+  font-size: 1em;
+  font-weight: 500;
 }
 
 footer {
@@ -493,6 +495,11 @@ display: block;
 
 .faq h2 {
   margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.faq h4 {
+  margin:0;
 }
 
 .faq p {
@@ -753,6 +760,7 @@ display: block;
 
 
       /* Footer */
+
       footer .content-wrapper {
           width: 65%;
           margin: 100px 0;
@@ -795,6 +803,10 @@ display: block;
               padding-top: 20px
           }
 
+          .mission h2 {
+               font-size: 2.35em;
+             }
+
           .mission-content p {
               width: 45%;
           }
@@ -805,6 +817,20 @@ display: block;
 
           .contact-section .content-wrapper h2 {
             width: 80%;
+          }
+
+          .contact-section h2 {
+            font-size: 2.25em;
+          }
+
+          .contact-section h4 {
+            font-size: 1.5em;
+          }
+
+          .contact-column-1 {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px -60px 0;
           }
 
           .contact-content {
@@ -820,6 +846,7 @@ display: block;
        ========================================================================== */
         .faq .content-wrapper {
             justify-content: space-between;
+            margin: 65px 0 0 0;
         }
 
         .faq-content {
@@ -828,7 +855,10 @@ display: block;
 
         .faq h2 {
             width: 100%;
+            font-size: 2.25em;
         }
+
+
 
 
 
@@ -840,6 +870,10 @@ display: block;
            max-width: 1060px;
            margin: 100px 100px;
       }
+
+      header figure {
+        width: 25%;
+        }
 
       header nav ul {
         font-size: larger;
@@ -921,6 +955,8 @@ display: block;
 /* ==========================================================================
    About Page
    ========================================================================== */
+
+
     .mission h2,
     .contact-section .content-wrapper h2 {
         width: 90%;
@@ -932,6 +968,19 @@ display: block;
 
     .contact-section .content-wrapper h2 {
         margin-bottom: 40px;
+
+    }
+
+    .contact-section h2 {
+      font-size: 3em;
+    }
+
+    .contact-column-1 {
+      display: flex;
+      justify-content: space-around;
+      padding-right:400px;
+
+
     }
 
 /* ==========================================================================
