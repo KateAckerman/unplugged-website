@@ -378,6 +378,10 @@ aside p {
   margin-top: 0;
 }
 
+.br-on-mobile {
+display: block;
+}
+
 .features article {
   width: 63%;
   margin: 30px 0;
@@ -645,6 +649,7 @@ aside p {
 
       .hero-area h1 {
         font-size:3em;
+        margin: -25px 0 0 0;
       }
 
       /* Aside */
@@ -672,6 +677,11 @@ aside p {
 
       aside h3 {
         font-size: 1.5em;
+        margin: 0 0 15px 0;
+      }
+
+      aside p {
+        font-size: 1em;
       }
 
       /* Features */
@@ -688,9 +698,23 @@ aside p {
         flex-basis: 50%;
       }
 
+      .features h2 {
+        font-size: 2.15em;
+      }
+
+      .br-on-mobile {
+    display: none;
+    }
+
+    .features p i {
+      font-size: 5.25em;
+
+    }
+
+
 
       .features .features-item-description {
-          width:50%;
+          width:65%;
       }
 
       /* Reviews */
@@ -742,7 +766,7 @@ aside p {
       }
 
       footer .contact {
-          margin-bottom: 0;
+          margin: 0 100px 0 0;
       }
 
       footer .copyright {
@@ -750,7 +774,13 @@ aside p {
       }
 
       footer h4 {
-        padding-bottom: 40px;
+        padding-bottom: 15px;
+        font-size: 1.5em;
+
+      }
+
+      footer p {
+        margin: 20px;
 
       }
 
@@ -807,8 +837,12 @@ aside p {
   @media only screen and (min-width: 1200px) {
   /*Desktop styles here */
       .content-wrapper {
-           max-width: 960px;
-           margin: 100px 150px;
+           max-width: 1060px;
+           margin: 100px 100px;
+      }
+
+      header nav ul {
+        font-size: larger;
       }
 
        /* Hero */
@@ -819,25 +853,42 @@ aside p {
        }
       .hero-area h1 {
           width: 70%;
+          margin: -65px 0 0 0;
       }
 
       /* Aside */
       aside .content-wrapper {
-          justify-content:space-between;
+          justify-content:space-around;
+          min-width:800px;
       }
 
       aside .content-wrapper .form-description,
       aside .content-wrapper .form {
-          width:33%;
+          width:27%;
       }
 
       /* Features */
-      .features h2 {
-          width: 90%
+
+      .features {
+        min-height:800px;
       }
 
+      .features h2 {
+        margin-left: 100px;
+          width: 80%
+        }
+
       .features article {
-          flex-basis: 1 0 175px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column wrap;
+      flex-basis: 33%;
+      }
+
+
+      .features .features-item-description {
+        width:60%;
       }
 
       /* Reviews */
@@ -845,13 +896,25 @@ aside p {
           width:100%;
       }
 
+      .reviews h3 {
+        padding-bottom:15px;
+        font-size: 2em;
+        width:75%;
+      }
+
+
       .reviews h2 {
         padding-bottom:50px;
+        font-size: 3em;
       }
 
       .reviews p {
-        font-size: 1.15em
+        font-size: 1.50em
       }
+
+      footer .contact {
+    margin: 0 500px 0 0;
+  }
 
 
 
